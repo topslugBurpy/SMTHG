@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../beach.avif);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: right;
+    margin-top: 19px;
+    margin-right: 15px;
+}
+ul li{
+    display: inline-flex;
+    font-size: larger;
+    
+
+} 
+ul li.active a{
+    background-color: black;
+    color: white;
+}
+ul li a{
+    padding: 5px 16px; /* padding top and right*/
+    border: 2px solid transparent; /* or transparent*/
+    transition: 0.3s ease;
+    color: white;
+    text-decoration: none;
+}
+ul li a:hover{
+    background-color: black;
+    color: white;
+}
+.logo img{
+    float: left;
+    width: 100px;
+    height: auto;
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.title h1{
+    font-size: 60px;
+    color: #fff;
+}
+.button{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.button a{
+    border: 1px solid white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+.button a:hover{
+    background-color: black;
+    color: white;
+}
